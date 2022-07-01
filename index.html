@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photos</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Photo Carousel</h1>
+    <div class="carousel">
+      <div class="carousel-item carousel-item-visible">
+        <a href="https://unsplash.com/photos/1EI7LtLzV2k" target="_blank">
+          <img src="images/1.jpg" alt="lightbulbs in a dimly lit room" />
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://unsplash.com/photos/bBDPoqf9OmQ" target="_blank">
+          <img src="images/2.jpg" alt="New York City" />
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://unsplash.com/photos/KSYXY7_daCs" target="_blank">
+          <img src="images/3.jpg" alt="a small ladybug in a hand" />
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://unsplash.com/photos/6ebwSXlf_Hk" target="_blank">
+          <img src="images/4.jpg" alt="impalas in the wild" />
+        </a>
+      </div>
+      <div class="carousel-actions">
+        <button id="carousel-button-prev" aria-label="Previous slide"><</button>
+        <button id="carousel-button-next" aria-label="Next slide">></button>
+      </div>
+      <div class="carousel-info">
+        <div class="carousel-counter">
+          <h2 class="carousel-index carousel-index-current">•</h2>
+          <h2 class="carousel-index">•</h2>
+          <h2 class="carousel-index">•</h2>
+          <h2 class="carousel-index">•</h2>
+        </div>
+        <button id="carousel-button-hide">Hide buttons</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <p>Photos obtained from Unsplash</p>
+  </body>
+</html>
